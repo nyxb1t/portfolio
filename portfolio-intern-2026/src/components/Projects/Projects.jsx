@@ -4,6 +4,24 @@ import { motion } from 'framer-motion';
 const Projects = () => {
   const projects = [
     {
+      title: "Deepfake Detection System",
+      description: "Engineered an end-to-end deepfake detection pipeline utilizing metadata features, featuring a fully modular architecture from data preparation to final deployment.",
+      tags: ["Scikit-learn", "Metadata Analysis", "Python", "Data Pipeline"],
+      github: "https://github.com/nyxb1t/deepfake-detection-system"
+    },
+    {
+      title: "Real Estate Price Analyzer",
+      description: "Developed a Real Estate Price Analyzer evaluating multiple ML models. Achieved 92% R² accuracy using a fine-tuned XGBoost model, complete with comprehensive feature importance analysis.",
+      tags: ["Scikit-learn", "XGBoost", "Python", "Pandas"],
+      github: "https://github.com/nyxb1t/real-estate-price-analyzer"
+    },
+    {
+      title: "Handwritten Digit Recognition",
+      description: "Developed an Artificial Neural Network for handwritten digit recognition on the MNIST dataset. Achieved ~98% accuracy, featuring custom input predictions and comprehensive performance visualizations.",
+      tags: ["Python", "ANN", "TensorFlow", "Keras"],
+      github: "https://github.com/nyxb1t/handwritten-digit-recogniser"
+    },
+    {
       title: "Song Popularity Predictor",
       description: "Developed an end-to-end ML application using a Random Forest Regressor to predict track success based on audio features.",
       tags: ["Python", "Scikit-learn", "Flask", "Render"],
